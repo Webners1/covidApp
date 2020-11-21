@@ -1,17 +1,28 @@
 {
+  "homepage": "http://Webners1.github.io/covidApp",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/styles": "^4.10.0",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.1",
     "@testing-library/user-event": "^12.2.2",
+    "chart.js": "^2.9.4",
     "react": "^17.0.1",
+    "react-chartjs-2": "^2.11.1",
+    "react-countup": "^4.3.3",
     "react-dom": "^17.0.1",
+    "react-number-format": "^4.4.1",
     "react-scripts": "4.0.0",
+    "react-select": "^3.1.0",
+    "react-select-country-list": "^2.2.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
